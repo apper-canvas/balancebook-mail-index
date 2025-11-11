@@ -1,24 +1,19 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { RouterProvider } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
-import Layout from "@/components/organisms/Layout";
+import { router } from "@/router";
+import React from "react";
+import Goals from "@/components/pages/Goals";
+import Budgets from "@/components/pages/Budgets";
 import Dashboard from "@/components/pages/Dashboard";
 import Transactions from "@/components/pages/Transactions";
-import Budgets from "@/components/pages/Budgets";
-import Goals from "@/components/pages/Goals";
 import Charts from "@/components/pages/Charts";
+import Layout from "@/components/organisms/Layout";
+
 
 function App() {
   return (
-    <BrowserRouter>
-      <Layout>
-        <Routes>
-          <Route path="/" element={<Dashboard />} />
-          <Route path="/transactions" element={<Transactions />} />
-          <Route path="/budgets" element={<Budgets />} />
-          <Route path="/goals" element={<Goals />} />
-          <Route path="/charts" element={<Charts />} />
-        </Routes>
-      </Layout>
+    <>
+      <RouterProvider router={router} />
       
       <ToastContainer
         position="top-right"
@@ -31,7 +26,7 @@ function App() {
         draggable
         pauseOnHover
       />
-    </BrowserRouter>
+    </>
   );
 }
 
