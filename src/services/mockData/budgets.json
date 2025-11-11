@@ -1,0 +1,66 @@
+[
+  {
+    "Id": 1,
+    "category": "Food",
+    "monthlyLimit": 600.00,
+    "month": "2024-01",
+    "spent": 160.50,
+    "rollover": 0
+  },
+  {
+    "Id": 2,
+    "category": "Transport",
+    "monthlyLimit": 300.00,
+    "month": "2024-01",
+    "spent": 45.00,
+    "rollover": 0
+  },
+  {
+    "Id": 3,
+    "category": "Housing",
+    "monthlyLimit": 1300.00,
+    "month": "2024-01",
+    "spent": 1200.00,
+    "rollover": 0
+  },
+  {
+    "Id": 4,
+    "category": "Utilities",
+    "monthlyLimit": 200.00,
+    "month": "2024-01",
+    "spent": 120.00,
+    "rollover": 0
+  },
+  {
+    "Id": 5,
+    "category": "Entertainment",
+    "monthlyLimit": 150.00,
+    "month": "2024-01",
+    "spent": 25.99,
+    "rollover": 0
+  },
+  {
+    "Id": 6,
+    "category": "Healthcare",
+    "monthlyLimit": 400.00,
+    "month": "2024-01",
+    "spent": 250.00,
+    "rollover": 0
+  },
+  {
+    "Id": 7,
+    "category": "Shopping",
+    "monthlyLimit": 300.00,
+    "month": "2024-01",
+    "spent": 150.00,
+    "rollover": 0
+  },
+  {
+    "Id": 8,
+    "category": "Other",
+    "monthlyLimit": 200.00,
+    "month": "2024-01",
+    "spent": 0,
+    "rollover": 0
+  }
+]
